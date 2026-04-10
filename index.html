@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="VIISION — Transformamos procesos con tecnología accesible. Digitalización y optimización para negocios." />
+  <title>VIISION | Tecnología accesible para tu negocio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+
+  <header class="header" data-animate>
+    <div class="header__inner container">
+      <a class="logo" href="#inicio" aria-label="VIISION inicio">VIISION</a>
+      <nav class="nav" aria-label="Principal">
+        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+          <span class="nav__toggle-bar"></span>
+          <span class="nav__toggle-bar"></span>
+          <span class="nav__toggle-bar"></span>
+          <span class="visually-hidden">Menú</span>
+        </button>
+        <ul id="nav-menu" class="nav__list">
+          <li><a href="#sobre">Sobre nosotros</a></li>
+          <li><a href="#problema">El problema</a></li>
+          <li><a href="#solucion">Solución</a></li>
+          <li><a href="#mision">Misión y visión</a></li>
+          <li><a href="#contacto" class="nav__cta">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section id="inicio" class="hero">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="hero__grid" aria-hidden="true"></div>
+      <div class="container hero__content">
+        <div class="hero__text" data-animate>
+          <p class="hero__badge">Empresa tecnológica</p>
+          <h1 class="hero__title">Transformamos procesos con tecnología accesible</h1>
+          <p class="hero__subtitle">
+            Empresa tecnológica enfocada en digitalizar negocios y optimizar procesos mediante soluciones innovadoras.
+          </p>
+          <div class="hero__actions">
+            <a href="#sobre" class="btn btn--primary">Conoce más</a>
+            <a href="#contacto" class="btn btn--ghost">Empezar</a>
+          </div>
+        </div>
+        <div class="hero__visual" data-animate data-animate-delay="1" aria-hidden="true">
+          <div class="hero-card">
+            <svg class="hero-card__illus" viewBox="0 0 400 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="g1" x1="0" y1="0" x2="400" y2="320" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#2563eb" stop-opacity="0.35"/>
+                  <stop offset="1" stop-color="#0ea5e9" stop-opacity="0.15"/>
+                </linearGradient>
+              </defs>
+              <rect width="400" height="320" rx="16" fill="url(#g1)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+              <rect x="32" y="40" width="160" height="12" rx="4" fill="rgba(255,255,255,0.2)"/>
+              <rect x="32" y="64" width="100" height="8" rx="2" fill="rgba(255,255,255,0.1)"/>
+              <rect x="32" y="100" width="336" height="160" rx="8" fill="rgba(0,0,0,0.25)" stroke="rgba(255,255,255,0.08)"/>
+              <circle cx="72" cy="180" r="24" stroke="#60a5fa" stroke-width="2" fill="none"/>
+              <path d="M120 200 L200 140 L280 200" stroke="#38bdf8" stroke-width="2" fill="none" stroke-linecap="round"/>
+              <rect x="48" y="120" width="80" height="48" rx="4" stroke="#93c5fd" stroke-width="1.5" fill="none"/>
+              <rect x="160" y="120" width="80" height="48" rx="4" stroke="#93c5fd" stroke-width="1.5" fill="none"/>
+              <rect x="272" y="120" width="80" height="48" rx="4" stroke="#93c5fd" stroke-width="1.5" fill="none"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre nosotros -->
+    <section id="sobre" class="section section--alt">
+      <div class="container two-col">
+        <div class="two-col__text" data-animate>
+          <h2 class="section__title">Sobre nosotros</h2>
+          <p class="section__lead">
+            VIISION es una empresa tecnológica creada con el objetivo de digitalizar negocios y optimizar procesos mediante soluciones innovadoras y accesibles, tanto para empresas pequeñas como para individuos.
+          </p>
+        </div>
+        <div class="two-col__visual" data-animate data-animate-delay="1">
+          <div class="illus-block">
+            <svg viewBox="0 0 320 280" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect width="320" height="280" rx="20" fill="var(--color-surface)" stroke="var(--color-border)" />
+              <path d="M40 200 L100 120 L160 160 L220 80 L280 140" stroke="var(--color-accent)" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="100" cy="120" r="6" fill="var(--color-accent)"/>
+              <circle cx="160" cy="160" r="6" fill="var(--color-accent-muted)"/>
+              <circle cx="220" cy="80" r="6" fill="var(--color-accent)"/>
+              <rect x="40" y="40" width="120" height="8" rx="2" fill="var(--color-border-strong)"/>
+              <rect x="40" y="56" width="80" height="6" rx="2" fill="var(--color-border)"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Problema -->
+    <section id="problema" class="section">
+      <div class="container">
+        <header class="section__header" data-animate>
+          <h2 class="section__title">El problema</h2>
+          <p class="section__subtitle">
+            Muchos negocios carecen de herramientas digitales para centralizar su gestión, automatizar procesos y competir en el mercado actual.
+          </p>
+        </header>
+        <div class="grid grid--3">
+          <article class="card card--problem" data-animate>
+            <div class="card__icon" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 9v4M12 17h.01"/><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/></svg>
+            </div>
+            <h3 class="card__title">Ineficiencia</h3>
+            <p class="card__text">Tareas manuales que consumen tiempo y recursos sin aportar valor estratégico.</p>
+          </article>
+          <article class="card card--problem" data-animate>
+            <div class="card__icon" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+            </div>
+            <h3 class="card__title">Desorganización</h3>
+            <p class="card__text">Información dispersa en hojas y canales sin una visión unificada del negocio.</p>
+          </article>
+          <article class="card card--problem" data-animate>
+            <div class="card__icon" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            </div>
+            <h3 class="card__title">Pérdida de tiempo</h3>
+            <p class="card__text">Sin automatización, el equipo no puede enfocarse en crecer ni innovar.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Solución -->
+    <section id="solucion" class="section section--dark">
+      <div class="container">
+        <header class="section__header section__header--light" data-animate>
+          <h2 class="section__title">Nuestra solución</h2>
+          <p class="section__subtitle">Propuesta de valor clara: tecnología que impulsa resultados medibles.</p>
+        </header>
+        <div class="grid grid--3">
+          <article class="card card--solution" data-animate>
+            <div class="card__icon card__icon--light" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+            </div>
+            <h3 class="card__title">Desarrollo web y sistemas empresariales</h3>
+            <p class="card__text">Plataformas a medida para gestionar tu operación con claridad y escala.</p>
+          </article>
+          <article class="card card--solution" data-animate>
+            <div class="card__icon card__icon--light" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/><circle cx="12" cy="12" r="3"/></svg>
+            </div>
+            <h3 class="card__title">Automatización de procesos</h3>
+            <p class="card__text">Flujos inteligentes que reducen errores y liberan capacidad del equipo.</p>
+          </article>
+          <article class="card card--solution" data-animate>
+            <div class="card__icon card__icon--light" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2a10 10 0 1010 10H12V2z"/><path d="M12 2v10h10"/></svg>
+            </div>
+            <h3 class="card__title">Integración de inteligencia artificial</h3>
+            <p class="card__text">IA aplicada a decisiones, análisis y experiencias más ágiles.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Misión y visión -->
+    <section id="mision" class="section">
+      <div class="container">
+        <div class="split-blocks">
+          <article class="split-block" data-animate>
+            <span class="split-block__label">Misión</span>
+            <p class="split-block__text">
+              Digitalizar y optimizar negocios mediante tecnología accesible, intuitiva y eficiente.
+            </p>
+          </article>
+          <article class="split-block split-block--accent" data-animate data-animate-delay="1">
+            <span class="split-block__label">Visión</span>
+            <p class="split-block__text">
+              Convertirse en referente en la digitalización de negocios en Perú y expandirse a nivel internacional con soluciones innovadoras.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Objetivos -->
+    <section id="objetivos" class="section section--alt">
+      <div class="container">
+        <header class="section__header" data-animate>
+          <h2 class="section__title">Objetivos</h2>
+        </header>
+        <ul class="objectives">
+          <li class="objectives__item" data-animate>
+            <span class="objectives__icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+            </span>
+            <span>Modernizar negocios</span>
+          </li>
+          <li class="objectives__item" data-animate>
+            <span class="objectives__icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4"/></svg>
+            </span>
+            <span>Optimizar procesos</span>
+          </li>
+          <li class="objectives__item" data-animate>
+            <span class="objectives__icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
+            </span>
+            <span>Democratizar la tecnología</span>
+          </li>
+          <li class="objectives__item" data-animate>
+            <span class="objectives__icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 3v18h18"/><path d="M7 16l4-4 4 4 6-6"/></svg>
+            </span>
+            <span>Impulsar crecimiento empresarial</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Modelo de negocio -->
+    <section id="modelo" class="section">
+      <div class="container">
+        <header class="section__header" data-animate>
+          <h2 class="section__title">Modelo de negocio</h2>
+        </header>
+        <div class="grid grid--3">
+          <article class="card" data-animate>
+            <div class="card__icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <h3 class="card__title">Desarrollo web y sistemas</h3>
+            <p class="card__text">Proyectos y productos digitales alineados a tus objetivos de negocio.</p>
+          </article>
+          <article class="card" data-animate>
+            <div class="card__icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>
+            </div>
+            <h3 class="card__title">Automatización y consultoría</h3>
+            <p class="card__text">Diagnóstico, diseño de flujos e implementación con acompañamiento.</p>
+          </article>
+          <article class="card" data-animate>
+            <div class="card__icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="1" y="4" width="22" height="16" rx="2"/><path d="M1 10h22"/></svg>
+            </div>
+            <h3 class="card__title">Planes de suscripción</h3>
+            <p class="card__text">Acceso continuo a mejoras, soporte y evolución de tu plataforma.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA / Contacto anchor -->
+    <section id="contacto" class="section cta-band">
+      <div class="container cta-band__inner" data-animate>
+        <h2 class="cta-band__title">¿Listo para digitalizar tu negocio?</h2>
+        <p class="cta-band__text">Hablemos de cómo VIISION puede acompañarte.</p>
+        <a href="mailto:contacto@viision.pe" class="btn btn--primary btn--lg">Contactar</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <span class="logo logo--footer">VIISION</span>
+        <p class="footer__tagline">Tecnología accesible para impulsar tu negocio.</p>
+      </div>
+      <div class="footer__social">
+        <span class="footer__label">Síguenos</span>
+        <ul class="social" aria-label="Redes sociales">
+          <li><a href="#" class="social__link" aria-label="LinkedIn (placeholder)"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a></li>
+          <li><a href="#" class="social__link" aria-label="X (placeholder)"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a></li>
+          <li><a href="#" class="social__link" aria-label="Instagram (placeholder)"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom container">
+      <p>© 2025 VIISION. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
